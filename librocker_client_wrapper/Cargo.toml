@@ -1,0 +1,13 @@
+[package]
+name = "librocker_client_wrapper"
+version = "0.1.0"
+authors = ["fanhui <hui.fan@mail.ru>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+core = { path = "../core" }
+error-chain = { git = "https://gitee.com/kt10/error-chain", branch = "master" }
+
+[dev-dependencies]
+nix = "0.15.0"

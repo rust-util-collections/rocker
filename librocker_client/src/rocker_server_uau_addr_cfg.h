@@ -1,0 +1,1 @@
+#define ROCKER_SERVER_UAU_ADDR "e96d36287c8cfece722db1ce842e9f6"

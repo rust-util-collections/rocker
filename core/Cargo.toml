@@ -1,0 +1,12 @@
+[package]
+name = "core"
+version = "0.1.0"
+authors = ["fh <hui.fan@mail.ru>"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.4.0"
+error-chain = { git = "https://gitee.com/kt10/error-chain", branch = "master" }
+nix = "0.15.0"
+libc = "0.2.62"
+time = "0.1.42"

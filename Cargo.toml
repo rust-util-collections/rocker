@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "core",
+    "rocker_server",
+    "librocker_client_wrapper"
+]
+
+[profile.dev]
+lto = false
+
+[profile.bench]
+lto = true
+codegen-units = 1
+
+[profile.release]
+lto = true
+codegen-units = 1
+incremental = false
+overflow-checks = false

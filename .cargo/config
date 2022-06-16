@@ -1,0 +1,18 @@
+[source.crates-io]
+replace-with = 'ustc'
+
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+[target.armv7-unknown-linux-musleabihf]
+linker = "armv7-linux-musleabihf-gcc"
+
+[target.aarch64-unknown-linux-gnu]
+linker = "aarch64-linux-gnu-gcc"
+
+[target.aarch64-unknown-linux-musl]
+linker = "aarch64-linux-musl-gcc"
+rustflags = [ "-C", "target-feature=+crt-static", "-C", "link-arg=-lgcc" ]
+
+[build]
+rustflags = [ "-C", "link-arg=-flto=thin" ]

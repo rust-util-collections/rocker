@@ -19,8 +19,6 @@ ROCKER 是一个`在线解压`和`进程沙箱`实现, 针对的是基于 Linux 
 沙箱功能的安全性保证, 来自于`Linux namespaces/cgroups`, `overlayfs`, `Rust` 等基础设施, 以及大量的测试用例. 感谢 **linus 大神**, **Rust 团队**创造出这些伟大的基础设施.
 
 > **本项目当前适合用于学习研究或教学目的, 不建议用于生产环境.**
->
-> **欢迎关注本人新项目 "[TTstack](https://gitee.com/kt10/ttstack.git)".**
 
 ## 1.1. 亮点与特性
 

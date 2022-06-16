@@ -1,8 +1,8 @@
-[source.crates-io]
-replace-with = 'ustc'
-
-[source.ustc]
-registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+# [source.crates-io]
+# replace-with = 'ustc'
+# 
+# [source.ustc]
+# registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 
 [target.armv7-unknown-linux-musleabihf]
 linker = "armv7-linux-musleabihf-gcc"
